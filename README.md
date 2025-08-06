@@ -18,24 +18,26 @@ AR Draw is a real-time Augmented Reality drawing application that lets users dra
 Clone the Repository
 
 git clone https://github.com/your-username/AR_draw.git
+
 cd AR_draw
+
 Install Dependencies
-(Use a virtual environment; don't include venv/ when pushing)
 pip install -r requirements.txt
+
 Run the App
 
-python main.py
+python finger.py
 Controls (Gesture-Based):
 
 1 finger → Draw
 
-2 fingers → Select tool
+2 fingers → Select color or clear or exit
 
-Thumb + Index → Eraser toggle
+Palm → Eraser toggle
 
-Palm open → Undo/Redo
+u/r → Undo/Redo
 
-Raise both hands → Save drawing
+S → Save drawing
 
 🧠 Educational Value
 Demonstrates computer vision concepts like landmark detection
